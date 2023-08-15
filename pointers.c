@@ -54,5 +54,22 @@ int main()
     //     printf("%d\n", *(p+i));
     // }
     // // printf("%d\n",*(p)); // Should be 0.
+
+    /*
+    4. Pointer Comparison. Write a program that compares two integer values
+    using pointers and prints whether they are equal or not.
+    */
+    int x = 7;
+    int y = 7;
+    int *px = &x;
+    int *py = &y;
+    if (*px == *py)
+    {
+        printf("Equal\n");
+    }
+    else
+    {
+        printf("Not equal\n");
+    }
     return 0;
 }
